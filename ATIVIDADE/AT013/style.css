@@ -1,0 +1,54 @@
+@charset "UTF-8";
+*{
+    height: auto;
+    background-attachment: fixed;
+}
+#tn1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-style: italic;
+    background-color: #1df;
+    color: black;
+    padding: 12px;
+    border-radius: 15px;
+    width: min-content;
+}
+h2.st{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-style: oblique;
+    color: black;
+}
+.txt{
+    font-family: Arial, Helvetica, serif;
+    font-size: 1.2em;
+    font-style: normal;
+    color: black;
+}
+.explicativo{
+    background-color: #775d8379;
+}
+.se-liga{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, serif;
+    color: black;
+    background-color: aquamarine;
+}
+a{
+    font-family: Arial, Helvetica, serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #3fad3f;
+    text-align: center;
+}
+a:visited{
+    color: #9400d3;
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+    display: flex;
+    justify-content: center;
+}

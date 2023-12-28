@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+h1{
+    width: max-content;
+    height: fit-content;
+    margin: auto;
+    border: 10px solid black;
+    border-image-source: url(borda.png);
+    border-image-slice: 25;
+    border-image-repeat: repeat;
+}

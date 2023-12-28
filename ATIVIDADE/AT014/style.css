@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    height: auto;
+}
+
+h1 {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    border: 5px solid red;
+    border-radius: 0px 10px 20px 30px;
+    outline: 15px dashed blue;
+    margin: auto;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}

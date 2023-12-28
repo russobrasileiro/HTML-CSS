@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocultando textos com hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > a {
+            display: none;
+        }
+        div:hover > a {
+            display: block;
+            background-color: #353232;
+            color: white;
+        }
+        #link-util{
+            width: 200px;
+            text-decoration: none;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <div>
+        luto
+        <a href="https://www.psicologospaulista.com.br/blog/luto-quais-sao-as-5-fases-do-luto/" id="link-util"> As cinco fazes do luto.</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'adventure';
+    src: url(fontes/Adventure.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'adventure', sans-serif;
+    font-size: 3em;
+}
+p{
+    font-family: 'adventure', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}

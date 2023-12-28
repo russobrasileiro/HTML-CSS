@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    background-color: #fff;
+}
+#paragrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-style: oblique;
+}
+#paragrafo2{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-style: oblique;
+}
+#paragrafo3{
+    font-family: cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: oblique;
+}
+#paragrafo4{
+    font-family: fantasy;
+    font-size: 1.2em;
+    font-style: oblique;
+}
+h1{
+    margin: auto;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 5px 5px 10px black;
+}
+h2{
+    margin: auto;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 5px 5px 10px black;
+}

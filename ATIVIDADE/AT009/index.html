@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Trabalhando com imagens dinâmicas</h1>
+    <hr>
+    <h2>Imagens</h2> <!--Usada para transmitir imagens em diferentes dispositivos.-->
+    <p>
+    <pre>
+    Hoje vamos trabalhar com imagens dinâmicas com a tag &lt;picture&gt;
+        </pre>
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-n.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h2>Trabalhando com audios</h2>
+    <p>
+    <pre>
+    Agora vamos trabalhar com audio usando a tag&lt;audio&gt;
+        </pre>
+    </p>
+    <audio preload="metadata" controls>
+        <source src="midia/Arrivalator.mp3" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/wav">
+        <p>Caso o seu navegador não suporte audio <a href="midia/Arrivalator.mp3" download="Arrivalator"
+                type="audio/mpeg"> download do phonk</a></p>
+    </audio>
+    <h2>Trabalhando com videos</h2>
+    <p>
+    <pre>
+    Para trabalharmos com videos, usamos a tag &lt;video&gt;
+        </pre>
+    </p>
+    <p>Videos hospedados localmente, em meu servidor</p>
+    <div>
+        <video width="720" poster="imagens/thumb.png" controls loop>
+            <source src="midia/forest.webm" type="video/webm">
+            <source src="midia/forest.mp4" type="video/mp4">
+            <source src="midia/pexels-ruslan-sikunov-15720111-_1080p_.ogv" type="video/ogv">
+            <p>Perdão, seu navegador não é compativel com o formato do video &#x1F614; baixe o video aqui<a
+                    href="midia/forest.mp4" download="Forest.mp4" type="video/mp4"></a></p>
+        </video>
+    </div>
+    <h2>Videos hospedados em outras plataformas</h2>
+    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/pBVHEwbSqTg?si=EvHQmpQ_OfUcRPkD"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe></div>
+    <p>
+    <pre>
+Desculpe, seu video não pôde ser carregado
+O link abaixo te levará para o video direto no youtube
+espero ter ajudado.
+            </pre>
+    </p>
+    <a href="inde.html" title="outra página">
+        <img src="imagens/thumb.png" alt="Perdão, a imagem não pôde ser carregada" width="120">
+    </a>
+</body>
+
+</html>
