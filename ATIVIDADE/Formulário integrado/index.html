@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input:valid{
+            border: 2px solid green;
+        }
+        input:invalid{
+            border: 2px solid red; 
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="chosse">Carro a combustão ou eletrico?</label>
+        <input type="escolha" id="chosse" name="i_like" required>
+        <button>enviar</button>
+    </form>
+    <form>
+        <label for="chosse">Carro a combustão ou eletrico?</label>
+        <input type="escolha" id="chosse" name="i_like" required pattern="combustão|eletrico|híbrido">
+        <button>enviar</button>
+    </form>
+    <form>
+        <label for="chosse">Seu endereço de email</label>
+        <input type="email" name="email_address" id="string" required multiple="@gmail.com, @hotmail.com">
+        <button>enviar</button>
+    </form>
+    <form>
+        <div>
+            <label for="chosse">Você prefere carro eletríco ou a combustão</label>
+            <input type="text" name="i_like" id="chosse" required minlength="6" maxlength="30" pattern="[Cc]ombustão|[Ee]letríco">
+        </div>
+        <div>
+            <label for="number">Quantos carros você gostaria de ter?</label>
+            <input type="number" name="amount" id="number" value="1" min="1" max="10">
+        </div>
+        <div>
+            <button>Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
