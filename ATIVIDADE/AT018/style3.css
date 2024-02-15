@@ -1,0 +1,32 @@
+@charset "UTF-8";
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    width: 400px;
+    border-collapse: collapse;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: lightgray;
+}
+th{
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+}
+tbody > tr:nth-child(even){
+    background-color: #aca9a9;
+}
+tbody td{
+    border: 1px solid black;
+}
+td.valor{
+    text-align: right;
+}
+tfoot td{
+    background-color: lightgrey;
+    border: 1px solid black;
+}

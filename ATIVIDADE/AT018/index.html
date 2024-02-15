@@ -9,34 +9,47 @@
 <body>
     <h1>Tabelas</h1>
     <table>
-        <th>Nome</th>
-        <th>Nome 2</th>
-        <th>Nome 3</th>
-        <th>Nome 4</th>
-        <tr>
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
-            <td>D1</td>
-        </tr>
-        <tr>
-            <td>A2</td>
-            <td>B2</td>
-            <td>C2</td>
-            <td>D2</td>
-        </tr>
-        <tr>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
-            <td>D3</td>
-        </tr>
-        <tr>
-            <td>A4</td>
-            <td>B4</td>
-            <td>C4</td>
-            <td>D4</td>
-        </tr>
+        <caption>
+            Número total de habitantes por município
+        </caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="row">Nome 2</th>
+            <th>Nome 3</th>
+            <th>Nome 4</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+                <td>D1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+                <td>D2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+                <td>D3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+                <td>D4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th id="linha_total">Total:</th>
+                <td id="total">0000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
