@@ -23,4 +23,8 @@ td{
 td.fmedia{
     background-color: lightslategray;
     color: white;
+    text-align: center;
+}
+td.nota{
+    text-align: center;
 }
