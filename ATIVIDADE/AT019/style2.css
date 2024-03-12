@@ -10,3 +10,12 @@ iframe{
     width: 840px;
     height: 640px;
 }
+.erro{
+    text-align: center;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
