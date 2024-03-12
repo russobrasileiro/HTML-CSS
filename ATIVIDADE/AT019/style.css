@@ -7,3 +7,11 @@ iframe#tabela{
     display: block;
     margin: auto;
 }
+iframe#curso-em-video{
+    display: block;
+    margin-top: auto;
+}
+iframe#meu-site{
+    display: flex;
+    margin: auto;
+}
